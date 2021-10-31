@@ -52,7 +52,7 @@ request.onsuccess = function(event) {
 
       // If there was data in indexedDb's store, send it to the api server
       if (getAll.result.length > 0) {
-        fetch('/api/transaction', {
+        fetch('/api/transaction/bulk', {
           method: 'POST',
           body: JSON.stringify(getAll.result),
           headers: {
@@ -68,7 +68,7 @@ request.onsuccess = function(event) {
 
             const transaction = db.transaction(['new_transaction'], 'readwrite');
             const fundsObjectStore = transaction.objectStore('new_transaction');
-            
+
             // Clears all items
             fundsObjectStore.clear();
           })
