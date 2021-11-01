@@ -8,8 +8,9 @@
   # Installation
     npm install express mongoose morgan nodemon compression
   # Usage
-    They will be able to test this code by pulling the code for use under their own and may edit as needed. You can also view a live deploy of this through [Heroku](https://ghostly-demon-04037.herokuapp.com/)
+    They will be able to test this code by pulling the code for use under their own and may edit as needed. 
     
+You can also view a deployed version of this application through [Heroku](https://ghostly-demon-04037.herokuapp.com/)
 
   # Questions
   *  You may  reach out to me directly at kgrace90@yahoo.com for any questions.
