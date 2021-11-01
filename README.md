@@ -12,6 +12,8 @@
     
 You can also view a deployed version of this application through [Heroku](https://ghostly-demon-04037.herokuapp.com/)
 
+![image](/images/Budget_Tracker.png)
+
   # Questions
   *  You may  reach out to me directly at kgrace90@yahoo.com for any questions.
 
