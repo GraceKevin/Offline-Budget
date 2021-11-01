@@ -4,7 +4,7 @@
     "description": "A budget app that allows you to keep track of your expenses even offline",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "/",
+    "start_url": "./index.html",
     "display": "standalone",
     "icons": [
       {
